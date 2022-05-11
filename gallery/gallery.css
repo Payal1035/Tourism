@@ -1,0 +1,94 @@
+#navbar{
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    padding: 0;
+}
+#navbar .menu ul{
+    padding: 0;
+    margin-bottom: 0;
+}
+#top{
+    padding: 0;
+}
+#top img{
+    /* border: 3px solid black; */
+    width: 100%;
+    height: 30vh;
+    /* padding: 0; */
+}
+.title{
+    display: flex;
+    position: relative;
+    z-index: 1000;
+}
+
+.title{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 3rem;
+    margin-left: 15%;
+    list-style: none;
+    font-size: 4rem;
+    color: #4e1313;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding: 1rem;
+}
+.row{
+    padding: 1rem;
+}
+.col{
+    border: none;
+    /* border: 2px solid green; */
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+.card>img{
+   border-right:  .35rem;
+   border-bottom: 0.15rem;
+   border-top: 0cm;
+   border-left: 0ch;
+   border-color: blueviolet;
+   border-style: solid;
+   padding: 0.2rem;
+   border-radius: 43px;
+}
+/* .card-img-overlay{
+    padding: 2rem;
+    background-color: #4e1313;
+    padding: 0.2rem;
+    opacity: 50%; */
+    /* display: none;
+    -webkit-tap-highlight-color: transparent;
+    transform: translateX(0%);
+    transition: all .35s ease
+
+} */
+.card-img-overlay:hover{
+    cursor: pointer;
+}
+h3{
+    margin-top: 93px;
+}
+
+@media (max-width: 770px){
+    .row{
+        padding: 0rem;
+        display: flex;
+        flex-direction: column;
+     }
+     .col{
+        padding: 1rem;
+     }
+}
